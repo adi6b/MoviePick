@@ -1,0 +1,17 @@
+The war file and exploded war folder are deployed on uml.
+
+* Web Serive URL example to get movies by title:
+> http://uml.cs.uga.edu:8080/cs8350_4_movies/api/movieByTitle/Avatar
+
+* To use the client:
+> navigate to the directory: /opt/jboss/standalone/deployments/cs8350_4_movies/
+> run command: java -classpath 'WEB-INF/lib/*:WEB-INF/classes/' edu.uga.cs.cs8350_4.MovieClient
+> Enter the choice code
+
+* Example
+> choice: 5
+> input: Enter Genre
+        drama
+> output: movie name
+
+{NOTE: Whenever asked for date enter in the following format "MM-DD-YYYY"}
