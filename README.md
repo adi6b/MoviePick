@@ -17,7 +17,7 @@ Movie Pick is a RESTful API providing information about the movies which are cur
 3. Once the project has been sucessfully build copy the MoviePick.war file and deploy it to /opt/jboss/standalone/deployments on JBOSS server
 #### 2. Using the RESTeasy Client
 1. Navigate to the directory: /opt/jboss/standalone/deployments/MoviePick/
-2. Run command: java -classpath 'WEB-INF/lib/*:WEB-INF/classes/' edu.uga.cs.cs8350_4.MovieClient
+2. Run command: java -classpath 'WEB-INF/lib/*:WEB-INF/classes/' edu.uga.cs.MoviePick.MovieClient
 3. Enter the choice code
 
 ### NOTE: Whenever asked for date enter in the following format "MM-DD-YYYY"
